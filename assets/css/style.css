@@ -43,7 +43,7 @@ h1 {
 
 p {
     width: 475px;
-    margin-left: 38%;
+    margin-left: 33%;
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 110%;
@@ -67,7 +67,5 @@ button:hover {
 
 button:active {
     font-size: 11px;
-    box-shadow: 0 0 10px black inset;
-
-
-
+    box-shadow: 0 0 10px black inset; 
+}
