@@ -4,7 +4,6 @@
     margin: 0;
 
 }
-body
 
 header {
     background-color: #C40234;
@@ -41,18 +40,36 @@ h1 {
     font-size: 200%;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 p {
-    width: 475px;
-    margin-left: 33%;
+   position: relative;
+   word-wrap: break-word;
+   width: 50%;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-left: 25%;
     font-size: 110%;
 }
 
-button {
+.startbutton {
     font-size: 13px;
     width: 80px;
     height: 30px;
+    margin-right: 20px;
+    background-color: #C40234;
+    color: #fff;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+
+.answr-btn {
+    font-size: 11px;
+    width: 100px;
+    height: 50px;
     margin-right: 20px;
     background-color: #C40234;
     color: #fff;
@@ -66,6 +83,6 @@ button:hover {
 }
 
 button:active {
-    font-size: 11px;
+    font-size: 10px;
     box-shadow: 0 0 10px black inset; 
 }
