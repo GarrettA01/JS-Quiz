@@ -32,6 +32,7 @@ main {
     width: 100vw;
     height: 100vh;
     text-align: center;
+    padding-top: 50px;
     
 }
 
@@ -42,6 +43,7 @@ h1 {
 
 h2 {
     margin-bottom: 20px;
+    font-size: 200%;
 }
 
 p {
@@ -54,7 +56,11 @@ p {
     font-size: 110%;
 }
 
-.startbutton {
+.intro {
+    color: black;
+}
+
+.startbutton{
     font-size: 13px;
     width: 80px;
     height: 30px;
@@ -68,13 +74,16 @@ p {
 
 .answr-btn {
     font-size: 11px;
-    width: 100px;
+    width: 200px;
     height: 50px;
     margin-right: 20px;
     background-color: #C40234;
     color: #fff;
     border: 3px solid black;
     border-radius: 25px;
+    display: block;
+    margin-left: 45%;
+    margin-top: 30px;
 }
 
 button:hover {
@@ -85,4 +94,8 @@ button:hover {
 button:active {
     font-size: 10px;
     box-shadow: 0 0 10px black inset; 
+}
+
+.hidden {
+    display: none;
 }

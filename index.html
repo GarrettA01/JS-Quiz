@@ -12,30 +12,109 @@
   <body>
     <header>
       <h2 id="highscore">Highscores</h2>
-      <h2 id="time">Timer:<span id="timer"></span></h2>
+      <h2 id="time">Timer:<span id="timerDisplay"></span></h2>
     </header>
     <main>
-      <h1>Coding Quiz!</h1>
-      <p>
-        This quiz will test your understanding of basic functions of HTML, CSS,
-        and Javascript! There are 10 questions, and you have 60 seconds to
-        answer them all! Your final score will be your time remaining after all
-        questions are answered. Keep in mind, answering wrong will give you a
-        penalty of -5 seconds, so choose your answer wisely! Good luck!
-      </p>
-      <button class="startbutton">START</button>
-      <section>
-        <h2>What does HTML stand for?</h2>
-        <button class="answr-btn">A. HyperText Markup Link</button>
+      <section class="intro">
+        <h1>Coding Quiz!</h1>
+        <p>
+          This quiz will test your understanding of basic functions of HTML,
+          CSS, and Javascript! There are 10 questions, and you have 60 seconds
+          to answer them all! Your final score will be your time remaining after
+          all questions are answered. Keep in mind, answering wrong will give
+          you a penalty of -5 seconds, so choose your answer wisely! Good luck!
+        </p>
+        <button class="startbutton">START</button>
+      </section>
+
+      <section id="question" class="hidden">
+        <h2>1. What does HTML stand for?</h2>
+        <button class="answr-btn" id="correct">A. HyperText Markup Link</button>
         <button class="answr-btn">B. Hieroglyphic, To Machines Legible</button>
         <button class="answr-btn">C. How To Marry Linda</button>
         <button class="answr-btn">D. Hello Todd My Love</button>
       </section>
-      <section>
-        <h2>What does CSS stand for?</h2>
+      <p id="rightMessage" class="hidden">Correct!</p>
+      <p id="wrongMessage" class="hidden">Incorrect!</p>
+      <section id="question" class="hidden">
+        <h2>2. What does CSS stand for?</h2>
         <button class="answr-btn">A. Carrie's Scary Snake</button>
         <button class="answr-btn">B. Carrying Soggy Socks</button>
-        <button class="answr-btn">C. Cascading Style Sheets</button>
+        <button class="answr-btn" id="correct">
+          C. Cascading Style Sheets
+        </button>
+        <button class="answr-btn">D. Calling Saul's Son</button>
+      </section>
+      <section id="question" class="hidden">
+        <h2>3. What does JS stand for?</h2>
+        <button class="answr-btn">A. Carrie's Scary Snake</button>
+        <button class="answr-btn">B. Carrying Soggy Socks</button>
+        <button class="answr-btn" id="correct">
+          C. Cascading Style Sheets
+        </button>
+        <button class="answr-btn">D. Calling Saul's Son</button>
+      </section>
+      <section id="question" class="hidden">
+        <h2>4. What does CSS stand for?</h2>
+        <button class="answr-btn">A. Carrie's Scary Snake</button>
+        <button class="answr-btn">B. Carrying Soggy Socks</button>
+        <button class="answr-btn" id="correct">
+          C. Cascading Style Sheets
+        </button>
+        <button class="answr-btn">D. Calling Saul's Son</button>
+      </section>
+      <section id="question" class="hidden">
+        <h2>5. What does CSS stand for?</h2>
+        <button class="answr-btn">A. Carrie's Scary Snake</button>
+        <button class="answr-btn">B. Carrying Soggy Socks</button>
+        <button class="answr-btn" id="correct">
+          C. Cascading Style Sheets
+        </button>
+        <button class="answr-btn">D. Calling Saul's Son</button>
+      </section>
+      <section id="question" class="hidden">
+        <h2>6. What does CSS stand for?</h2>
+        <button class="answr-btn">A. Carrie's Scary Snake</button>
+        <button class="answr-btn">B. Carrying Soggy Socks</button>
+        <button class="answr-btn" id="correct">
+          C. Cascading Style Sheets
+        </button>
+        <button class="answr-btn">D. Calling Saul's Son</button>
+      </section>
+      <section id="question" class="hidden">
+        <h2>7. What does CSS stand for?</h2>
+        <button class="answr-btn">A. Carrie's Scary Snake</button>
+        <button class="answr-btn">B. Carrying Soggy Socks</button>
+        <button class="answr-btn" id="correct">
+          C. Cascading Style Sheets
+        </button>
+        <button class="answr-btn">D. Calling Saul's Son</button>
+      </section>
+      <section id="question" class="hidden">
+        <h2>8. What does CSS stand for?</h2>
+        <button class="answr-btn">A. Carrie's Scary Snake</button>
+        <button class="answr-btn">B. Carrying Soggy Socks</button>
+        <button class="answr-btn" id="correct">
+          C. Cascading Style Sheets
+        </button>
+        <button class="answr-btn">D. Calling Saul's Son</button>
+      </section>
+      <section id="question" class="hidden">
+        <h2>9. What does CSS stand for?</h2>
+        <button class="answr-btn">A. Carrie's Scary Snake</button>
+        <button class="answr-btn">B. Carrying Soggy Socks</button>
+        <button class="answr-btn" id="correct">
+          C. Cascading Style Sheets
+        </button>
+        <button class="answr-btn">D. Calling Saul's Son</button>
+      </section>
+      <section id="question" class="hidden">
+        <h2>10. What does CSS stand for?</h2>
+        <button class="answr-btn">A. Carrie's Scary Snake</button>
+        <button class="answr-btn">B. Carrying Soggy Socks</button>
+        <button class="answr-btn" id="correct">
+          C. Cascading Style Sheets
+        </button>
         <button class="answr-btn">D. Calling Saul's Son</button>
       </section>
     </main>
