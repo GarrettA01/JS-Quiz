@@ -14,6 +14,8 @@
       <h2 id="highscore">Highscores</h2>
       <h2 id="time">Timer:<span id="timerDisplay"></span></h2>
     </header>
+
+  <!-- Introduction to quiz -->
     <main>
       <section class="intro">
         <h1>Coding Quiz!</h1>
@@ -27,95 +29,116 @@
         <button class="startbutton">START</button>
       </section>
 
+
+<!-- 1st question -->
       <section id="question" class="hidden">
         <h2>1. What does HTML stand for?</h2>
         <button class="answr-btn" id="correct">A. HyperText Markup Link</button>
-        <button class="answr-btn">B. Hieroglyphic, To Machines Legible</button>
-        <button class="answr-btn">C. How To Marry Linda</button>
-        <button class="answr-btn">D. Hello Todd My Love</button>
+        <button class="answr-btn" id="incorrect">B. Hieroglyphic, To Machines Legible</button>
+        <button class="answr-btn" id="incorrect">C. How To Marry Linda</button>
+        <button class="answr-btn" id="incorrect">D. Hello Todd My Love</button>
       </section>
+
+<!-- Messages for if you get question right or wrong -->
       <p id="rightMessage" class="hidden">Correct!</p>
       <p id="wrongMessage" class="hidden">Incorrect!</p>
+
+<!-- 2nd question -->
       <section id="question" class="hidden">
         <h2>2. What does CSS stand for?</h2>
-        <button class="answr-btn">A. Carrie's Scary Snake</button>
-        <button class="answr-btn">B. Carrying Soggy Socks</button>
+        <button class="answr-btn" id="incorrect">A. Carrie's Scary Snake</button>
+        <button class="answr-btn" id="incorrect">B. Carrying Soggy Socks</button>
         <button class="answr-btn" id="correct">
           C. Cascading Style Sheets
         </button>
-        <button class="answr-btn">D. Calling Saul's Son</button>
+        <button class="answr-btn" id="incorrect">D. Calling Saul's Son</button>
       </section>
+
+<!-- 3rd question -->
       <section id="question" class="hidden">
         <h2>3. What does JS stand for?</h2>
-        <button class="answr-btn">A.Jerry's Soda</button>
+        <button class="answr-btn" id="incorrect">A.Jerry's Soda</button>
         <button class="answr-btn" id="correct">B. JavaScript</button>
-        <button class="answr-btn">C. Jumbo Shrimp</button>
-        <button class="answr-btn">D. Jumping Ship</button>
+        <button class="answr-btn" id="incorrect">C. Jumbo Shrimp</button>
+        <button class="answr-btn" id="incorrect">D. Jumping Ship</button>
       </section>
+
+<!-- 4th question -->
       <section id="question" class="hidden">
         <h2>4. What is HTML for?</h2>
         <button class="answr-btn" id="correct">
           A. The webpage's template
         </button>
-        <button class="answr-btn">B. The webpage's style</button>
-        <button class="answr-btn">C. The webpage's functionality</button>
-        <button class="answr-btn">D. Nothing</button>
+        <button class="answr-btn" id="incorrect">B. The webpage's style</button>
+        <button class="answr-btn" id="incorrect">C. The webpage's functionality</button>
+        <button class="answr-btn" id="incorrect">D. Nothing</button>
       </section>
+
+<!-- 5th question -->
       <section id="question" class="hidden">
         <h2>5. What is CSS for?</h2>
-        <button class="answr-btn">
+        <button class="answr-btn" id="incorrect">
           A. The webpage's template
         </button>
         <button class="answr-btn" id="correct">B. The webpage's style</button>
-        <button class="answr-btn">C. The webpage's functionality</button>
-        <button class="answr-btn">D. Nothing</button>
+        <button class="answr-btn" id="incorrect">C. The webpage's functionality</button>
+        <button class="answr-btn" id="incorrect">D. Nothing</button>
       </section>
+
+<!-- 6th question -->
       <section id="question" class="hidden">
         <h2>6. What is JS for?</h2>
-        <button class="answr-btn">
+        <button class="answr-btn" id="incorrect">
           A. The webpage's template
         </button>
-        <button class="answr-btn">B. The webpage's style</button>
+        <button class="answr-btn" id="incorrect">B. The webpage's style</button>
         <button class="answr-btn" id="correct">C. The webpage's functionality</button>
-        <button class="answr-btn">D. Nothing</button>
+        <button class="answr-btn" id="incorrect">D. Nothing</button>
       </section>
-      </section>
+
+<!-- 7th question -->
       <section id="question" class="hidden">
-        <h2>7. Is?</h2>
-        <button class="answr-btn">A. Carrie's Scary Snake</button>
-        <button class="answr-btn">B. Carrying Soggy Socks</button>
-        <button class="answr-btn" id="correct">
-          C. Cascading Style Sheets
+        <h2>7. Is Coding Fun?</h2>
+        <button class="answr-btn" id="incorrect">A. Are you Serious?
+        <button class="answr-btn" id="incorrect">B. Nah </button>
+        <button class="answr-btn" id="incorrect">
+          C. No
         </button>
-        <button class="answr-btn">D. Calling Saul's Son</button>
+        <button class="answr-btn" id="correct">D. Heck yeah!</button>
       </section>
+
+<!-- 8th question -->
       <section id="question" class="hidden">
-        <h2>8. What does CSS stand for?</h2>
-        <button class="answr-btn">A. Carrie's Scary Snake</button>
-        <button class="answr-btn">B. Carrying Soggy Socks</button>
-        <button class="answr-btn" id="correct">
-          C. Cascading Style Sheets
+        <h2>8. Which list is made up of HTML elements?</h2>
+        <button class="answr-btn" id="incorrect">A. function, var, if</button>
+        <button class="answr-btn" id="correct">B. body, h1, p, nav</button>
+        <button class="answr-btn" id="incorrect">
+          C. *, :root, color
         </button>
-        <button class="answr-btn">D. Calling Saul's Son</button>
+        <button class="answr-btn" id="incorrect">D. console.log, addEventlistener</button>
       </section>
+
+<!-- 9th question -->
       <section id="question" class="hidden">
-        <h2>9. What does CSS stand for?</h2>
-        <button class="answr-btn">A. Carrie's Scary Snake</button>
-        <button class="answr-btn">B. Carrying Soggy Socks</button>
-        <button class="answr-btn" id="correct">
-          C. Cascading Style Sheets
+        <h2>9. What element represents a paragraph in HTML?</h2>
+        <button class="answr-btn" id="correct">A. p</button>
+        <button class="answr-btn" id="incorrect">B. body</button>
+        <button class="answr-btn" id="incorrect">
+          C. section
         </button>
-        <button class="answr-btn">D. Calling Saul's Son</button>
+        <button class="answr-btn" id="incorrect">D. footer</button>
       </section>
+
+<!-- 10th question -->
       <section id="question" class="hidden">
-        <h2>10. What does CSS stand for?</h2>
-        <button class="answr-btn">A. Carrie's Scary Snake</button>
-        <button class="answr-btn">B. Carrying Soggy Socks</button>
-        <button class="answr-btn" id="correct">
-          C. Cascading Style Sheets
-        </button>
-        <button class="answr-btn">D. Calling Saul's Son</button>
+        <h2>10. What is the most important aspect of web design</h2>
+        <button class="answr-btn" id="incorrect">A. HTML</button>
+        <button class="answr-btn" id="incorrect">B. CSS</button>
+        <button class="answr-btn" id="incorrect"> C. JS</button>
+        <button class="answr-btn" id="correct">D. They're all essential</button>
       </section>
+
+
     </main>
     <script src="./assets/js/script.js"></script>
   </body>
