@@ -13,7 +13,7 @@ function startTimer(){
     console.log('timer suppose to go')
     var timer = setInterval(function(){
         sec--;
-        document.querySelector('#timerDisplay').innerHTML='00:'+sec;
+        document.querySelector('#timerDisplay').innerHTML=sec;
         if (sec < 0) {
             clearInterval(timer);
             alert("Time is up!")
@@ -27,7 +27,6 @@ correct[i].addEventListener("click", correctMessage)
 
 function correctMessage(){
     correctoMessage.classList.remove("hidden");
-    correctoMessage.classList.add("hidden");
 }
 
 
